@@ -7,6 +7,8 @@ trtexec \
   --precisionConstraints=prefer \
   --layerPrecisions=*:int8 \
   --exportTimes=detr-times.json \
-  --exportProfile=detr-profile.json \
-  --exportLayerInfo=detr-layer-info.json \
   2>&1 | tee detr.log
+
+#  --exportProfile=detr-profile.json \
+#  --exportLayerInfo=detr-layer-info.json \
+
